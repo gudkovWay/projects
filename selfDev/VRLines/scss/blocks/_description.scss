@@ -1,0 +1,65 @@
+.description__header {
+    width: 1440px;
+    height: 70px;
+    background-color: $descr-header;
+    margin: 0 15px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+
+    & ul{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    padding-left: 150px;
+    }
+}
+
+.description__tour-link {
+    color: $black-color;
+}
+.current-link {
+    color: $blue-color;
+    position: relative;
+    &::after{
+
+    position: absolute;
+    width: 60px;
+    left: 0;
+    height: 3px;
+    top: 33px;
+    content: "";
+    background: #486591;
+    }    
+}
+
+.description__contents{
+    width: 840px;
+    height: 840px;
+    margin: 0 15px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 33px;
+}
+
+.description__content{
+    height: 740px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 140px;
+    .description__content-p{
+        font-family: $font-main;
+        font-weight: 400;
+        font-size: 14px;
+        max-width: 840px;
+    }
+}
+
+.hidden{
+    display: none
+}

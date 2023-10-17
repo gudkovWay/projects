@@ -1,0 +1,78 @@
+.tour__title{
+    margin-left: 125px;
+}
+.tour__contents{
+    width: 880px;
+    height: 590px;
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    @include headerLine;
+
+    *{
+        margin-top: 15px;
+    }
+    margin-left: 125px;
+}
+.tour__left-content {
+    width: 440px;
+    height: 510px;
+    display: flex;
+    flex-flow: column;
+    gap:20px;
+}
+.tour__right-content {
+    width: 310px;
+    height: 330px;
+    display: flex;
+    flex-flow: column;
+    gap:20px;
+}
+
+.tour__days {
+    display: flex;
+    flex-flow: column;
+    gap:20px;
+}
+.tour__day {
+    font-family: $font-main;
+    font-weight: 700;
+    font-size: 14px;
+    color: $black-color;
+}
+.tour__charact {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 20px;
+}
+.tour__charact-headers {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.tour__charact-h {
+    font-family: $font-main;
+    font-weight: 400;
+    font-size: 14px;
+    color: $black-color;
+}
+.tour__charact-paragraphs {
+    display: flex;
+    flex-flow: column;
+}
+.tour__charact-p {
+    font-family: $font-main;
+    font-weight: 400;
+    font-size: 14px;
+    color: $grey-color;
+    text-transform: lowercase;
+    .primary {
+        font-family: $font-main;
+        font-weight: 400;
+        font-size: 14px;
+        color: $orange-color;
+    }
+}
+
