@@ -1,0 +1,122 @@
+footer {
+  margin-left: 225px;
+  margin-top: 325px;
+}
+.footer__contents {
+  width: 1170px;
+  height: 330px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer__top-content {
+  width: 1140px;
+  height: 210px;
+  display: flex;
+  flex-flow: row;
+  gap: 30px;
+}
+.footer__nav {
+  display: flex;
+  flex-flow: row;
+  gap: 30px;
+}
+
+.footer__property {
+  width: 140px;
+  height: 190px;
+}
+.footer__descr-contacts {
+  width: 240px;
+  height: 140px;
+  font-family: $font-main;
+  font-size: 14px;
+  font-weight: 400;
+  color: $grey-color;
+}
+.footer__nav-header {
+  font-family: $font-main;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $black-color;
+}
+.footer__link {
+  font-family: $font-main;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: $blue-color;
+  position: relative;
+  text-decoration: underline $blue-color;
+}
+
+.footer__bottom-content {
+  margin-top: 15px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer__logo {
+  display: flex;
+  flex-flow: row;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo {
+  width: 130px;
+  height: 30px;
+}
+.footer__phone {
+  font-family: $font-main;
+  font-size: 12px;
+  font-weight: 900;
+  color: $grey-color;
+}
+.footer__center-bottom__content {
+  * {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+}
+
+.footer__CB-header {
+    font-family: $font-main;
+    font-size: 13px;
+    font-weight: 700;
+    color: $black-color;
+}
+
+.footer__CB-p {
+    font-family: $font-main;
+    font-size: 12px;
+    font-weight: 400;
+    color: $grey-color
+}
+.footer__socials {
+    width: 260px;
+    height: 50px;
+    padding-left: 25px;
+    ul{
+    display: flex;
+    flex-flow: row;
+    gap: 5px;
+}
+}
+
+.footer__social {
+    width: 30px;
+    height: 30px;
+    background-color: $grey-color;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,198 @@
+header {
+  max-width: 1440px;
+  height: 740px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./../img/header/header-bg.png) no-repeat;
+  margin: 0 15px !important;
+}
+.header__top {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 1140px;
+    height: 0px;
+    left: 150px;
+    top: 70px;
+    border: 1px solid #ffffff;
+  }
+}
+
+.header__top-left {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+.header__top-right {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 40px 30px;
+}
+
+.header__logo {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 15px;
+}
+.header__list {
+  width: 440px;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  gap: 25px;
+  position: relative;
+}
+
+.header__phone__link, .header__list-a{
+  color: $white-color !important;
+  font-family: $font-main !important;
+  font-weight: 900 !important;
+  font-size: 12px !important;
+  transition: color .25s ease-in-out !important;
+
+  &:hover{
+    color: $orange-color !important
+}
+}
+
+.header__modal {
+  width: 32px;
+  height: 32px;
+  background: #df7021;
+  border-radius: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+
+  &:hover{
+    transform: scale(1.25); 
+  }
+}
+
+
+
+.header__content{
+  width: 810px;
+  height: 660px;
+  display: flex;
+  flex-flow: column; 
+  padding-left: 150px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px
+}
+
+.intro__title{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.sales{
+  width: 70px;
+  height: 30px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 25px;
+  background-color: $danger-color;
+  font-family: $font-main;
+  font-size: 14px;
+  text-align: center;
+  & h3 {
+    position: relative;
+    top:5px
+  }
+}
+
+.tour__cards{
+  display: flex;
+  align-items: center;
+  gap:40px 30px;
+}
+
+.tour__card{
+  width: 90px;
+  height: 30px;
+  background-color: $descr-bg-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  &:nth-child(4){
+    width: 130px;
+  }
+  &:last-child{
+    width: 310px;
+  }
+}
+
+.header__buttons{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  
+  .primary-btn{
+    width: 280px;
+    height: 90px;
+    color: $white-color;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(251,252,254, 0.8);
+    border-radius: 5px;
+    
+    button{
+      font-family: $font-main;
+      font-size: 14px;
+      font-weight: 400;
+      background-color: $orange-color;
+      width: 210px;
+      height: 40px;
+      border-radius: 10px;
+      opacity: 1;
+    }
+    .prices{
+      display: flex;
+      flex-flow: row;
+      gap: 30px;
+      
+      .byn__price{
+        color: $black-color;
+        font-family: $font-main;
+        font-size: 14px;
+        font-weight: 700;
+      }
+      &:last-child{
+        color: $orange-text-color;
+        font-family: $font-main;
+        font-size: 14px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.default__button{
+  width: 210px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $white-color;
+  font-family: $font-main;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: $blue-color;
+}

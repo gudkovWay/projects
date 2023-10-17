@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;700&display=swap");
+@import url("https://db.onlinewebfonts.com/c/1fc6b9a8ffa7a66d2335064d5b7db082?family=Lato+ExtraBold");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic");
+
+body {
+  background-color: $white-color;
+  color: $black-color;
+}
+
+a {
+  color: $white-color;
+  font-family: $font-main;
+  font-weight: 900;
+  font-size: 12px;
+  transition: color 0.25s ease-in-out;
+  &:hover {
+    color: $orange-color;
+  }
+}
+
+.container {
+  width: 1470px;
+  margin: 0 auto !important;
+}
+.container--small {
+  width: 860px;
+  height: 260px;
+}
+.title-2 {
+  font-family: $font-main;
+  font-size: 24px;
+  font-weight: 400;
+  color: $white-color;
+}
+
+h1 {
+  font-family: "Lato ExtraBold" !important;
+  font-size: 52px !important;
+  color: $white-color !important;
+  font-weight: normal !important;
+}
+
+.none {
+  display: none;
+}
+
+.section__title {
+  font-family: $font-main;
+  font-size: 24px;
+  font-weight: 400;
+  color: $black-color;
+}
+
+.more {
+}

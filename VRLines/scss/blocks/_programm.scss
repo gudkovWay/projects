@@ -1,0 +1,67 @@
+.programm {
+  padding-top: 25px;
+  padding-left: 305px;
+}
+.program__contents {
+  width: 880px;
+  height: 690px;
+  display: flex;
+  flex-flow: row;
+  gap: 30px;
+  position: relative;
+  @include headerLine;
+  * {
+    padding-top: 2px;
+  }
+}
+.programm__content-left {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+.programm__tour-day {
+  position: relative;
+  max-width: 70px;
+  font-family: $font-accent;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: $grey-color;
+}
+.programm__tour-day-squares {
+  width: 2px;
+  height: 30px;
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
+}
+.programm__tour-square {
+  width: 2px;
+  height: 2px;
+  left: 5px;
+  top: 3px;
+  background-color: $squares-bg;
+}
+
+.programm__content-right {
+  padding-top: 15px;
+  display: flex;
+  flex-flow: column;
+  gap:30px;
+}
+.program_card {
+  width: 750px;
+  height: 100px;
+  background: rgba(214, 230, 243, 0.3);
+  border-radius: 5px;
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.descr__programm__tour-day {
+}
