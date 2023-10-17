@@ -21,7 +21,7 @@ Description object:
 Links to the projects:
 | guidedDev  | selfDev |
 | ------ | ------ |
-| [LoftHouse](https://github.com/gudkovWay/projects/tree/main/guidedDev/LoftHouse) | null |
+| [LoftHouse](https://github.com/gudkovWay/projects/tree/main/guidedDev/LoftHouse) | [VR Lines](https://github.com/gudkovWay/projects/tree/main/selfDev/VRLines) |
 
 
 ## 🇷🇺 RU:
@@ -47,4 +47,4 @@ Links to the projects:
 
 | Разработка по инструкциям  | Собственная Разработка |
 | ------ | ------ |
-| [LoftHouse](https://github.com/gudkovWay/projects/tree/main/guidedDev/LoftHouse) | null |
+| [LoftHouse](https://github.com/gudkovWay/projects/tree/main/guidedDev/LoftHouse) | [VR Lines](https://github.com/gudkovWay/projects/tree/main/selfDev/VRLines) |
