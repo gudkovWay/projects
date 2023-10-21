@@ -22,6 +22,7 @@ Links to the projects:
 | guidedDev  | selfDev |
 | ------ | ------ |
 | [LoftHouse](https://github.com/gudkovWay/projects/tree/main/guidedDev/LoftHouse) | [VR Lines](https://github.com/gudkovWay/projects/tree/main/selfDev/VRLines) |
+| ------ | [REACT-book-store](https://github.com/gudkovWay/projects/tree/main/selfDev/react-book-store) |
 
 
 ## 🇷🇺 RU:
@@ -48,3 +49,4 @@ Links to the projects:
 | Разработка по инструкциям  | Собственная Разработка |
 | ------ | ------ |
 | [LoftHouse](https://github.com/gudkovWay/projects/tree/main/guidedDev/LoftHouse) | [VR Lines](https://github.com/gudkovWay/projects/tree/main/selfDev/VRLines) |
+| ------ | [REACT-book-store](https://github.com/gudkovWay/projects/tree/main/selfDev/react-book-store) |
