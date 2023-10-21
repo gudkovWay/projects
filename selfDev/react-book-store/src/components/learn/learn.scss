@@ -1,0 +1,48 @@
+.learn__row {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin-left: 70px;
+
+    .left-column {
+        padding-top: 110px;
+        display: flex;
+        flex-flow: row wrap;
+        gap:30px;
+
+        .card {
+            width: 300px;
+            height: 270px;
+            background: #f4f8ff;
+            
+            .card__title {
+                width: 50px;
+                height: 50px;
+                background: #ffca42;
+                border-radius: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 30px;
+
+                h3 {
+                    font-family: 'Cardo';
+                    font-size: 23px;
+                    color: #1b3764
+                }
+            }
+            p {
+
+                font-family: 'Cardo';
+                font-size: 24px;
+                color: #1b3764;
+                margin: 30px;
+            }
+        }
+    }
+
+    .right-column {
+        padding-top: 110px;
+        margin-right: 110px;
+    }
+}

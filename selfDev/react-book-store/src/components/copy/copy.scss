@@ -1,0 +1,47 @@
+.copy {
+    width: 1300px;
+    height: 510px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    
+    .left-column {
+        width: 620px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        margin-left: 125px;
+        gap:50px;
+        padding-top: 140px;
+
+        .container__title {
+            color: #ffffff;
+            text-align: left;
+
+            &::after{
+                width: 50px;
+                left: 0;
+            }
+        }
+        .description {
+            width: 530px;
+            font-family: 'Inter';
+            font-size: 19px;
+        }
+
+        .order__button--small {
+            color: #ffffff;
+
+            &:hover{
+                color: #1b3764;
+                background: #b4c7e7;
+            }
+        }
+    }
+
+    .right-column {
+        display: flex;
+        justify-content: center;
+        margin-top: 140px;
+    }
+}

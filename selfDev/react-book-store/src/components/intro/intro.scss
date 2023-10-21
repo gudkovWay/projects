@@ -1,0 +1,129 @@
+.intro {
+  width: 1300px;
+  height: 810px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 125px;
+
+  .left-column {
+    max-width: 590px;
+    height: 510px;
+    display: flex;
+    flex-flow: column;
+  }
+  .left-column * {
+    margin-bottom: 15px;
+  }
+
+  .welcome {
+    font-family: "Cardo";
+    font-size: 21px;
+    position: relative;
+    letter-spacing: 1.2px;
+    line-height: 36px;
+    color: #ffffff;
+    margin-left: 55px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      height: 2px;
+      left: -11%;
+      right: 103%;
+      top: calc(50% - 2px / 2);
+      background: #ffca42;
+      border-radius: 0px;
+    }
+  }
+}
+
+h1 {
+  font-family: "Cardo";
+  font-size: 64px !important;
+  letter-spacing: 1.3px;
+  color: #ffffff;
+}
+.description {
+  font-family: "Inter";
+  font-size: 18px;
+  color: #b4c7e7;
+}
+.intro__buttons {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  margin: 40px 0;
+
+  .order__button {
+    margin-left: 0;
+  }
+
+  .demo__link {
+    color: #ffffff;
+    position: relative;
+    font-family: "Cardo";
+    font-size: 19px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      height: 1px;
+      width: 100%;
+      left: 0;
+      top: calc(50% - 1px / 2 + 16px);
+      background: #ffffff;
+    }
+  }
+}
+
+.intro__charact {
+  .headers {
+    display: flex;
+    flex-flow: row;
+    gap: 70px;
+  }
+
+  .headers h3 {
+    position: relative;
+    font-family: "Cardo";
+    font-size: 24px;
+    letter-spacing: 0.48px;
+    color: #ffffff;
+    margin-left: 20px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      height: 16px;
+      width: 16px;
+      left: -30px;
+      top: 5px;
+      background: #ffca42;
+      border-radius: 100px;
+    }
+  }
+
+  .descr {
+    display: flex;
+    flex-flow: row;
+    margin-left: 20px;
+    gap: 70px;
+
+    p{
+        color: #b4c7e7;
+        font-family: 'Inter';
+        font-size: 17px;
+    }
+  }
+}
+
+.right-column {
+  img {
+    max-width: 590px;
+    max-height: 800px;
+  }
+}
