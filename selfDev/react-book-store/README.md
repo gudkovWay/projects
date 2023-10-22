@@ -38,3 +38,13 @@ This is the description of the project I talked about in the repository descript
 | Собственные фичи | Motion Framework (библиотека реакта для анимации первой секции) |
 | Что я изучил(узнал как) | работа с 'VDOM' в Реакте |
 | Что я улучшил(закрепил) из навыков | SCSS |
+
+
+## Features:
+
+- [ ] Scroll animation
+- [ ] Slider in post blocks (news/articles);
+- [ ] Cart logic
+- [ ] Add React Router Dom and did second page - about author, about books 
+- [ ] Add React Router Dom and make pages: about the author, about the books ( take the information out of the main page )
+- [ ] Add auth.
