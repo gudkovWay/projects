@@ -1,0 +1,276 @@
+.overlay {
+  width: 100vw;
+  height: 100vw;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 55;
+}
+
+.root {
+  width: 550px;
+  height: 100vh;
+  background-color: #b4c7e7;
+  z-index: 27;
+  position: fixed;
+  top: 0;
+  right: 209px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  user-select: none;
+}
+
+.cartHeader {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  h2 {
+    font-size: 64px;
+    font-family: 'Cardo';
+    color: #141414;
+    letter-spacing: 0.54px;
+    padding: 30px 0;
+  }
+  button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 40px;
+    z-index: 111;
+    right: 27px;
+
+    svg {
+      transition: all 0.27s ease-in-out;
+      &:hover {
+        fill: #ffca42;
+      }
+    }
+  }
+}
+
+.item {
+  width: 435px;
+  height: 160px;
+  background-color: #1b3764;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  padding-left: 27px;
+  align-items: center;
+  gap: 27px;
+
+  img {
+    width: 115px;
+    height: 130px;
+    border-radius: 10px;
+    padding: 5px 0;
+  }
+
+  .itemProperty {
+    display: flex;
+    flex-flow: column;
+    gap: 7px;
+
+    h3 {
+      font-family: 'Cardo';
+      font-size: 27px;
+      color: #ffffff;
+      letter-spacing: 0.32px;
+    }
+
+    .status {
+      font-family: 'Cardo';
+      font-size: 27px;
+      color: #b4c7e7;
+    }
+
+    .price {
+      font-family: 'Inter';
+      font-size: 22px;
+      color: #ffca42;
+    }
+
+    .count {
+      font-family: 'Inter';
+      font-size: 17px;
+      color: #ffca42;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.totalBlockList {
+  width: 330px;
+  display: flex;
+  align-items: flex-end;
+  gap: 7px;
+
+  span {
+    font-family: 'Inter';
+    font-size: 17px;
+    color: #000000;
+  }
+  b {
+    font-family: 'Inter';
+    color: #1b3764;
+    font-size: 15px;
+  }
+  div {
+    flex: 1;
+    height: 1px;
+    border-bottom: 1px dotted #969aa0;
+    position: relative;
+    top: -5px;
+    margin: 0 7px;
+  }
+}
+
+.cartButton {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #ffca42;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.27s ease-in-out;
+  margin-bottom: 15px;
+
+  &:hover {
+    background-color: #969aa0;
+    color: #1b3764;
+  }
+
+  button {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+.bookItems {
+  max-height: 360px;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.changeNum {
+  display: flex;
+  flex-flow: column;
+  gap: 17px;
+  position: absolute;
+  right: 77px;
+
+  .math {
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+
+    svg {
+      fill: #969aa0;
+      transition: all 0.27s ease-in-out;
+
+      &:hover {
+        fill: #ffca42;
+      }
+    }
+  }
+}
+
+.clearAll {
+  cursor: pointer;
+
+  svg {
+    height: 27px;
+    width: 27px;
+    fill: #1b3764;
+    transition: all 0.25s ease-in-out;
+
+    &:hover {
+      fill: #141414;
+    }
+  }
+}
+
+.emptyCartHeader {
+  width: 100%;
+  height: 480px;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  bottom: 110px;
+
+  .iconHeader {
+    width: 120px;
+    height: 120px;
+  }
+  .emptyCart {
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      text-align: center;
+      right: 0;
+      left: 0;
+      position: relative;
+
+      &::after {
+        left: 77px;
+        width: 50px;
+      }
+    }
+
+    p {
+      text-align: center;
+      font-family: 'Inter';
+      font-size: 32px;
+      color: #000000;
+    }
+  }
+}
+
+.doneCart {
+  display: flex;
+  flex-flow: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    text-align: center;
+    right: 0;
+    left: 0;
+    position: relative;
+
+    &::after {
+      left: 44px;
+      width: 27px;
+    }
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 32px;
+    color: #000000;
+  }
+}

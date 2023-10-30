@@ -1,0 +1,72 @@
+.articles {
+  padding-top: 30px;
+  position: relative;
+}
+
+.posts {
+  margin-top: 75px;
+  margin-left: 75px;
+  margin-right: 75px;
+  gap: 20px;
+  width: 1330px;
+  height: 770px;
+}
+
+.post__characts {
+  width: 420px;
+  height: 270px;
+  background: #ffffff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 30px 25px;
+
+  .post__title {
+    font-family: 'Cardo';
+    font-size: 24px;
+    color: #1b3764;
+  }
+  .description {
+    font-family: 'Inter';
+    font-size: 19px;
+    color: #969aa0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .post__charact {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+    a {
+      position: relative;
+      color: #1b3764;
+      font-family: 'Cardo';
+      font-size: 19px;
+      transition: color 0.25s ease-in-out;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 110%;
+        height: 1px;
+        left: 0;
+        background: #1b3764;
+        transition: background 0.33s ease-in-out;
+      }
+      &:hover {
+        color: #ffca42;
+
+        &::after {
+          background: #ffca42;
+        }
+      }
+    }
+
+    .post__date {
+      color: #1b3764;
+      font-family: 'Inter';
+      font-size: 16px;
+    }
+  }
+}

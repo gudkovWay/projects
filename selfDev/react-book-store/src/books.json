@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "title": "Atomic One’s",
+      "price": 13.84,
+      "description": "As the book contains theoretical content as well as solved questions.",
+      "status": "Printed Book",
+      "imageUrl": "/img/books/book-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Dark Light",
+      "price": 86.11,
+      "description": "As the book contains theoretical content as well as solved questions.",
+      "status": "Printed Book",
+      "imageUrl": "/img/books/book-2.jpg"
+    }
+]
