@@ -5,7 +5,7 @@
 Hello friend.
 This is the description of the project I talked about in the repository description.
 
-###REACT book-store:
+### REACT book-store:
 
 | Key                | Value                                                                       |
 | ------------------ | --------------------------------------------------------------------------- |
@@ -23,7 +23,7 @@ This is the description of the project I talked about in the repository descript
 
 Привет, друг.
 Это описание проекта о котором я говорил в описании репозитория.
-###REACT book-store:
+### REACT book-store:
 
 | Ключ                               | Значение                                                         |
 | ---------------------------------- | ---------------------------------------------------------------- |
