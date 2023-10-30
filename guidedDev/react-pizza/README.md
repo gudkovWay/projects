@@ -13,7 +13,7 @@ This is the description of the project I talked about in the repository descript
 | end                | 30/10/23 01:00 PM            |
 | Dev time           | ~35hours                     |
 | stack of languages | React, RTK, SCSS             |
-| guidedDev?         | yes                          |
+| guidedDev?         | [yes](https://youtu.be/_UywBskWJ7Q?si=GziV6YZLZ-W48S3N)                          |
 | tricks by bloger   | localStorage, axios, mockapi |
 | tricks by me       | null                         |
 | what I've learned  | TS, RTK + TS                 |
@@ -32,7 +32,7 @@ This is the description of the project I talked about in the repository descript
 | Конец                              | 30/10/23 13:00               |
 | Время разработки                   | ~35hours                     |
 | Набор ЯП                           | React,TS, RTK, SCSS          |
-| По инструкции                      | yes                          |
+| По инструкции                      | [yes](https://youtu.be/_UywBskWJ7Q?si=GziV6YZLZ-W48S3N)                          |
 | Авторские фичи(блогера)            | localStorage, axios, mockapi |
 | Собственные фичи                   | null                         |
 | Что я изучил(узнал как)            | TS, RTK + TS                 |
