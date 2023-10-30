@@ -9,8 +9,8 @@ This is the description of the project I talked about in the repository descript
 
 | Key                | Value                                                                       |
 | ------------------ | --------------------------------------------------------------------------- |
-| start              | 20/10/23 04:00 PM // 30/10/2023 16:30 (Logic, slider)                       |
-| end                | 21/10/23 10:00 PM (ONLY FRONT-END IN THE FUTURE I WILL ADD BACK-END LOGIC.) |
+| start              | 20/10/23 04:00 PM |
+| end                | 21/10/23 10:00 PM & 30/10/2023 16:30 (Logic, slider) |
 | Dev time           | ~7hours (without logic) ~3hours (logic)                                     |
 | stack of languages | React, RTK, SCSS                                                            |
 | guidedDev?         | No, selfDev                                                                 |
@@ -28,7 +28,7 @@ This is the description of the project I talked about in the repository descript
 | Ключ                               | Значение                                                         |
 | ---------------------------------- | ---------------------------------------------------------------- |
 | Старт                              | 20/10/2023 16:00                                                 |
-| Конец                              | 21/10/2023 22:00 (верстка) // 30/10/2023 16:30 (Логика, слайдер) |
+| Конец                              | 21/10/2023 22:00 (верстка) & 30/10/2023 16:30 (Логика, слайдер) |
 | Время разработки                   | ~7hours (верстка) ~3hours (логика, слайдер)                      |
 | Набор ЯП                           | React, SCSS                                                      |
 | По инструкции                      | -                                                                |
