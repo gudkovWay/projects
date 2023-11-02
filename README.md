@@ -23,6 +23,7 @@ Links to the projects:
 | ------ | ------ |
 | [LoftHouse](https://github.com/gudkovWay/projects/tree/main/guidedDev/LoftHouse) | [VR Lines](https://github.com/gudkovWay/projects/tree/main/selfDev/VRLines) |
 | [REACT-pizza](https://github.com/gudkovWay/projects/tree/main/guidedDev/react-pizza) | [REACT-book-store](https://github.com/gudkovWay/projects/tree/main/selfDev/react-book-store) |
+| [REACT-blog(FULL-STACK)](https://github.com/gudkovWay/projects/tree/main/guidedDev/react-blog) | null |
 
 
 ## 🇷🇺 RU:
@@ -50,3 +51,4 @@ Links to the projects:
 | ------ | ------ |
 | [LoftHouse](https://github.com/gudkovWay/projects/tree/main/guidedDev/LoftHouse) | [VR Lines](https://github.com/gudkovWay/projects/tree/main/selfDev/VRLines) |
 | [REACT-pizza](https://github.com/gudkovWay/projects/tree/main/guidedDev/react-pizza) | [REACT-book-store](https://github.com/gudkovWay/projects/tree/main/selfDev/react-book-store) |
+| [REACT-blog(FULL-STACK)](https://github.com/gudkovWay/projects/tree/main/guidedDev/react-blog) | null |
