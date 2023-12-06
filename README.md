@@ -1,4 +1,4 @@
-# Pet Projects
+# Practice Projects
 
 ## 🇺🇸 EU: 
 Hello friend.
