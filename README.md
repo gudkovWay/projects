@@ -32,8 +32,8 @@ Hard == 💋
 Links to the projects:
 | guidedDev  | selfDev |
 | ------ | ------ |
-| null | [REACT-test task "welbex"](https://github.com/gudkovWay/welbex) 😒 |
-| [REACT-pizza](https://github.com/gudkovWay/projects/tree/main/guidedDev/react-pizza)  👀 | [REACT-book-store](https://github.com/gudkovWay/projects/tree/main/selfDev/react-book-store) 😒 |
+| null | [REACT-book-store](https://github.com/gudkovWay/projects/tree/main/selfDev/react-book-store) 😒 |
+| [REACT-pizza](https://github.com/gudkovWay/projects/tree/main/guidedDev/react-pizza)  👀 | [REACT-test task "tvoe"](https://github.com/gudkovWay/tvoe) 👀  |
 | [REACT-blog(FULL-STACK)](https://github.com/gudkovWay/projects/tree/main/guidedDev/react-blog)  👀 | [Nest&Next ecommerce FULL-STACK)](https://github.com/gudkovWay/ecommerce) 💋|
 
 
@@ -70,6 +70,6 @@ Hard == 💋
 
 | Разработка по инструкциям  | Собственная Разработка |
 | ------ | ------ |
-| null | [REACT-test task "welbex"](https://github.com/gudkovWay/welbex) 😒|
-| [REACT-pizza](https://github.com/gudkovWay/projects/tree/main/guidedDev/react-pizza) 👀 | [REACT-book-store](https://github.com/gudkovWay/projects/tree/main/selfDev/react-book-store) 😒  |
+| null | [REACT-book-store](https://github.com/gudkovWay/projects/tree/main/selfDev/react-book-store) 😒|
+| [REACT-pizza](https://github.com/gudkovWay/projects/tree/main/guidedDev/react-pizza) 👀 | [REACT-test task "tvoe"](https://github.com/gudkovWay/tvoe) 👀   |
 | [REACT-blog(FULL-STACK)](https://github.com/gudkovWay/projects/tree/main/guidedDev/react-blog) 👀  | [Nest&Next ecommerce FULL-STACK)](https://github.com/gudkovWay/ecommerce) 💋 |
