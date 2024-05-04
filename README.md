@@ -20,6 +20,7 @@ Links to the projects:
 | null | [REACT-pizza](https://github.com/gudkovWay/react-pizza) 😒 |
 | null | [REACT-test task "tvoe"](https://github.com/gudkovWay/tvoe) 👀  |
 | null | [REACT-UI-kit](https://github.com/gudkovWay/ui-testtask) 👀  |
+| null | [Next ecom](https://github.com/gudkovWay/next-pizza) 👀  |
 | [REACT-blog(FULL-STACK)](https://github.com/gudkovWay/projects/tree/main/guidedDev/react-blog)  👀 | [Nest&Next ecommerce FULL-STACK)](https://github.com/gudkovWay/ecommerce) 💋|
 
 
@@ -43,4 +44,5 @@ Hard === 💋
 | null | [REACT-pizza](https://github.com/gudkovWay/react-pizza) 😒 |
 | null | [REACT-test task "tvoe"](https://github.com/gudkovWay/tvoe) 👀  |
 | null | [REACT-UI-kit](https://github.com/gudkovWay/ui-testtask) 👀  |
+| null | [Next ecom](https://github.com/gudkovWay/next-pizza) 👀  |
 | [REACT-blog(FULL-STACK)](https://github.com/gudkovWay/projects/tree/main/guidedDev/react-blog)  👀 | [Nest&Next ecommerce FULL-STACK)](https://github.com/gudkovWay/ecommerce) 💋|
