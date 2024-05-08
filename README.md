@@ -17,7 +17,7 @@ Links to the projects:
 | guidedDev  | selfDev |
 | ------ | ------ |
 | null | [REACT-book-store](https://github.com/gudkovWay/projects/tree/main/selfDev/react-book-store) 😒 |
-| null | [REACT-pizza](https://github.com/gudkovWay/react-pizza) 😒 |
+| null | [REACT-test task "geex"](https://github.com/gudkovWay/geex) 😒 |
 | null | [React-UI-kit](https://github.com/gudkovWay/ui-testtask) 👀  |
 | null | [Next-test task "tvoe"](https://github.com/gudkovWay/tvoe) 😒  |
 | null | [Next ecom](https://github.com/gudkovWay/next-pizza) 👀  |
@@ -41,7 +41,7 @@ Hard === 💋
 | Разработка по инструкциям  | Собственная Разработка |
 | ------ | ------ |
 | null | [REACT-book-store](https://github.com/gudkovWay/projects/tree/main/selfDev/react-book-store) 😒 |
-| null | [REACT-pizza](https://github.com/gudkovWay/react-pizza) 😒 |
+| null | [REACT-test task "geex"](https://github.com/gudkovWay/geex) 😒 |
 | null | [React-UI-kit](https://github.com/gudkovWay/ui-testtask) 👀  |
 | null | [Next-test task "tvoe"](https://github.com/gudkovWay/tvoe) 😒  |
 | null | [Next ecom](https://github.com/gudkovWay/next-pizza) 👀  |
